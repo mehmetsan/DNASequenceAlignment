@@ -4,7 +4,7 @@ DNA Sequence alignments with global and local alignment methods.
 MAKEFILE CONTENTS:
 
 allalign:
-	python homework3.py --mode $(MODE) --input $(INPUT) --gapopen $(GAPOPEN) --gapext $(GAPEXT)
+	python alignment.py --mode $(MODE) --input $(INPUT) --gapopen $(GAPOPEN) --gapext $(GAPEXT)
 
 -----------------------------------------------------------------------------------------------------
 In order to run the code, type:
